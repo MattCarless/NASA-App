@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Custom Google font imported-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Aleo&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>NASA | Picture of the day</title>
+
+    <!-- link to custom CSS style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id='image' class="background-holder"> </div>
+    <div class="wrapper">
+    <h1 id="main-header">NASA | Picture of the day</h1>
+
+
+    <div id="display-error"></div>
+
+     <div id="content-div" class="align">
+    <p id="second-header" class='align'>Enter search date below to get image <br></p>
+    <input id ="user-data" class="align" type="date" max="2019-12-28"> <button id ="submit-button" type="button"> Fetch Image</button>
+
+
+    <div id="picture-title"></div>
+  </div>
+  
+
+    <!-- Link to custom JavaScript script-->
+    <script src="moment.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
